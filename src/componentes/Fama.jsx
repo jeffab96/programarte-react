@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../css/menu.css'
 
-const URL_FAMA = "http://localhost/gabriel_A/salon_fama.php";
+const URL_FAMA = "https://programartephp.azurewebsites.net/salon_fama.php";
 
 function useDatos() {
     const [jugadores, setJugadores] = useState([])
